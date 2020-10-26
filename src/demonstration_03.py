@@ -10,5 +10,12 @@ Examples:
 """
 def string_int(txt: str) -> int:
     # Your code here
-    
+    if txt.isnumberic() is True;    
+    converted_int = int(txt)
+    return converted_int
+
+    else:
+        return f"(txt) is not a valid number"
+
+print(string_int("1000"))
 
