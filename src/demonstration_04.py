@@ -9,6 +9,6 @@ Examples:
 - find_perimeter(20, 10) ➞ 60
 - find_perimeter(2, 9) ➞ 22
 """
-def find_perimeter(length, width):
+def find_perimeter(length: int, width: int):
     # Your code here
 

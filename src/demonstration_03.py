@@ -15,7 +15,7 @@ def string_int(txt: str) -> int:
     return converted_int
 
     else:
-        return f"(txt) is not a valid number"
+        return f"'(txt)' is not a valid number"
 
 print(string_int("1000"))
 
