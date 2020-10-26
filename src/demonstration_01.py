@@ -10,6 +10,13 @@ Examples:
 """
 def addition(a: int, b: int) -> int:
     # Your code here
+    # given two ints as input 
+    # add the two inputs together with `+`
     answer = a + b
-    return answer
+    # return the result of the operation to make the result 
+    # available outside this function 
+    return answer 
+​
+    # return a + b
+
 
